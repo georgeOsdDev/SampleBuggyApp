@@ -1,0 +1,14 @@
+﻿@page
+@{
+    Layout = "_Layout";
+}
+<div>
+    <h1 class="display-4">Slow Request</h1>
+    <ul>
+        <li><a href="/api/SlowRequest/sleep/10" target="_blank">Sleep 10 sec</a></li>
+        <li><a href="/api/SlowRequest/waitExternalDependency/10" target="_blank">Wait external dependency 10 sec</a></li>
+        <li><a href="/api/SlowRequest/waitExternalDependencyAsync/10" target="_blank">Wait external dependency 10 sec in async</a></li>
+        <li><a href="/api/SlowRequest/wait/10" target="_blank">Wait 10 sec</a></li>
+        <li><a href="/api/SlowRequest/waitAsync/10" target="_blank">Wait 10 sec in async</a></li>
+    </ul>
+</div>
