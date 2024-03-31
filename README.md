@@ -12,10 +12,10 @@ Deployed at https://toshida-dotnet-buggyapp.azurewebsites.net/
 - Wait `n` sec in async [/api/SlowRequest/waitAsync/{n}](https://toshida-dotnet-buggyapp.azurewebsites.net/api/SlowRequest/waitAsync/1)
 
 ## [Exception](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Exceptions/)
-- Throw exception [/api/Exception/throw}](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Exception/throw)
-- Throw unhandle exception [/api/Exception/throwUnhandled}](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Exception/throw)
-- Crash application [/api/Exception/crash}](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Exception/crash)
-- Exit application [/api/Exception/exit}](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Exception/exit)
+- Throw exception [/api/Exception/throw](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Exception/throw)
+- Throw unhandle exception [/api/Exception/throwUnhandled](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Exception/throw)
+- Crash application [/api/Exception/crash](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Exception/crash)
+- Exit application [/api/Exception/exit](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Exception/exit)
 
 ## [Locked Request](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Lock)
 - Do deadlock [/api/Lock/deadlock](https://toshida-dotnet-buggyapp.azurewebsites.net/api/Lock/deadlock)
